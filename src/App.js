@@ -86,15 +86,12 @@ class App extends Component {
               id: this.state.user.id,
             }),
           })
-            .then((response) => response.json())
-            .then((response) => {
-              return response.json();
-            })
+            .then((response) => response.json()) // 17
             .then((count) => {
+              console.log("count: ", count);
               this.setState(Object.assign(this.state.user, { entries: count }));
-             })
+            })
             .catch(console.log);
-            
         }
         this.displayFaceBox(this.calculateFaceLocation(response));
       })
