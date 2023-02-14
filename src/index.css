@@ -1,0 +1,22 @@
+html {
+  height: 100% !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(#8a80b3 40%, #5ca9f1 80%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+button {
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
